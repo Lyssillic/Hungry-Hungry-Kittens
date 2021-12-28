@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 9b3fb2f7d871dda468e854eb141c83b7
+guid: 1f110ddd291883f4da09f6f30cb7817c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8730859546398174335
-    second: kitten01_run_strip4_0
+      213: -3020142226165392447
+    second: oc_idle_r_0
   - first:
-      213: -1981438019543963280
-    second: kitten01_run_strip4_1
+      213: 2965809317733456167
+    second: oc_idle_r_1
   - first:
-      213: 1304480008092938353
-    second: kitten01_run_strip4_2
+      213: 6612758108058864981
+    second: oc_idle_r_2
   - first:
-      213: -4066880108373821019
-    second: kitten01_run_strip4_3
+      213: -7179958089987292298
+    second: oc_idle_r_3
+  - first:
+      213: 5732777056169491560
+    second: oc_idle_r_4
+  - first:
+      213: -6008672259491668471
+    second: oc_idle_r_5
+  - first:
+      213: -6579137755992658550
+    second: oc_idle_r_6
+  - first:
+      213: 5374212621027508518
+    second: oc_idle_r_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -58,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -80,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -92,7 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +116,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kitten01_run_strip4_0
+      name: oc_idle_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -123,20 +135,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7c24e6df7e3a2970800000000000000
-      internalID: 8730859546398174335
+      spriteID: 1cb114e85ac4616d0800000000000000
+      internalID: -3020142226165392447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_run_strip4_1
+      name: oc_idle_r_1
       rect:
         serializedVersion: 2
         x: 32
@@ -144,20 +156,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 079e0ac8e948084e0800000000000000
-      internalID: -1981438019543963280
+      spriteID: 729db076cdba82920800000000000000
+      internalID: 2965809317733456167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_run_strip4_2
+      name: oc_idle_r_2
       rect:
         serializedVersion: 2
         x: 64
@@ -165,20 +177,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1707afae7a17a1210800000000000000
-      internalID: 1304480008092938353
+      spriteID: 55dce60a67c35cb50800000000000000
+      internalID: 6612758108058864981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_run_strip4_3
+      name: oc_idle_r_3
       rect:
         serializedVersion: 2
         x: 96
@@ -186,14 +198,98 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a9b644b61a8f87c0800000000000000
-      internalID: -4066880108373821019
+      spriteID: 6738d10882aab5c90800000000000000
+      internalID: -7179958089987292298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oc_idle_r_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cfd79eb5aee8f40800000000000000
+      internalID: 5732777056169491560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oc_idle_r_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e51415a68ec9ca0800000000000000
+      internalID: -6008672259491668471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oc_idle_r_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d62b5911532b4a0800000000000000
+      internalID: -6579137755992658550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oc_idle_r_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62104cfa7e9059a40800000000000000
+      internalID: 5374212621027508518
       vertices: []
       indices: 
       edges: []

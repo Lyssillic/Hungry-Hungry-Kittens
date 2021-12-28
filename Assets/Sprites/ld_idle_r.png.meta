@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 616e70acf310ff24283bb7c1fcf263a5
+guid: 5d5e38404388c7b479ce8fc5ff502fe3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2973604841176774763
-    second: kitten01_idle_strip8_0
+      213: 2244205510267829427
+    second: ld_idle_r_0
   - first:
-      213: 3071865151938477249
-    second: kitten01_idle_strip8_1
+      213: -8141760379318680142
+    second: ld_idle_r_1
   - first:
-      213: -6777477184191887429
-    second: kitten01_idle_strip8_2
+      213: 1250295304353499390
+    second: ld_idle_r_2
   - first:
-      213: 831131955526335738
-    second: kitten01_idle_strip8_3
+      213: 616633882302680868
+    second: ld_idle_r_3
   - first:
-      213: 2793351332411293961
-    second: kitten01_idle_strip8_4
+      213: 7136457957077786250
+    second: ld_idle_r_4
   - first:
-      213: -599645499412136342
-    second: kitten01_idle_strip8_5
+      213: 8011185596541254764
+    second: ld_idle_r_5
   - first:
-      213: 6317895762455192790
-    second: kitten01_idle_strip8_6
+      213: -3977789163324158933
+    second: ld_idle_r_6
   - first:
-      213: -7588334225245930862
-    second: kitten01_idle_strip8_7
+      213: -8117814623683475413
+    second: ld_idle_r_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -92,7 +92,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -104,7 +104,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -116,7 +116,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -127,7 +127,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kitten01_idle_strip8_0
+      name: ld_idle_r_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6839b429dd544920800000000000000
-      internalID: 2973604841176774763
+      spriteID: 3bcfc727505052f10800000000000000
+      internalID: 2244205510267829427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_idle_strip8_1
+      name: ld_idle_r_1
       rect:
         serializedVersion: 2
         x: 32
@@ -162,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ccb13b841571aa20800000000000000
-      internalID: 3071865151938477249
+      spriteID: 2b54c586218a20f80800000000000000
+      internalID: -8141760379318680142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_idle_strip8_2
+      name: ld_idle_r_2
       rect:
         serializedVersion: 2
         x: 64
@@ -183,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb78dead86091f1a0800000000000000
-      internalID: -6777477184191887429
+      spriteID: ef8445874f0f95110800000000000000
+      internalID: 1250295304353499390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_idle_strip8_3
+      name: ld_idle_r_3
       rect:
         serializedVersion: 2
         x: 96
@@ -204,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afc7f9a2c16c88b00800000000000000
-      internalID: 831131955526335738
+      spriteID: 42f0f17bf39be8800800000000000000
+      internalID: 616633882302680868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_idle_strip8_4
+      name: ld_idle_r_4
       rect:
         serializedVersion: 2
         x: 128
@@ -225,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9014d3dac3af3c620800000000000000
-      internalID: 2793351332411293961
+      spriteID: a8e912e83bac90360800000000000000
+      internalID: 7136457957077786250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_idle_strip8_5
+      name: ld_idle_r_5
       rect:
         serializedVersion: 2
         x: 160
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6eb0686891ada7f0800000000000000
-      internalID: -599645499412136342
+      spriteID: c6c319fdad27d2f60800000000000000
+      internalID: 8011185596541254764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_idle_strip8_6
+      name: ld_idle_r_6
       rect:
         serializedVersion: 2
         x: 192
@@ -267,14 +267,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d46619e8bcada750800000000000000
-      internalID: 6317895762455192790
+      spriteID: b2c4aa8c4dd0cc8c0800000000000000
+      internalID: -3977789163324158933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitten01_idle_strip8_7
+      name: ld_idle_r_7
       rect:
         serializedVersion: 2
         x: 224
@@ -288,8 +288,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29af6431a32d0b690800000000000000
-      internalID: -7588334225245930862
+      spriteID: b2800ea1c9ab75f80800000000000000
+      internalID: -8117814623683475413
       vertices: []
       indices: 
       edges: []

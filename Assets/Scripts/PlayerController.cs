@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     float vertical;
     int direction;
     Vector2 movement;
+    // public float jump = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,17 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // if (Input.GetButtonDown("Jump"))
+        // {
+        //     rb2d.AddForce(new Vector2(rb2d.velocity.x, jump));
+        // }
+
+        // Attack
+        // if (Input.GetButtonDown(KeyCode.Space))
+        // {
+            
+        // }
+
         // Set the player input variables
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");

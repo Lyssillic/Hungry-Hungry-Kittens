@@ -28,10 +28,10 @@ public class EnemyController : MonoBehaviour
     {
         vertical = 0f;
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            moving = !moving;
-        }
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     moving = !moving;
+        // }
 
         if (toggleDirection)
         {

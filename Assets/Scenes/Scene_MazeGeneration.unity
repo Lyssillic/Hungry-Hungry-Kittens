@@ -213,6 +213,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5839772531734259441, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
+      propertyPath: m_Size.x
+      value: 0.15509325
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839772531734259441, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
+      propertyPath: m_Size.y
+      value: 0.14636946
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839772531734259441, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0031327307
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839772531734259441, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.08148751
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839772531734259442, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5839772531734259443, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
       propertyPath: speed
       value: 10
@@ -269,6 +289,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5839772531734259453, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5769dd5e053422446b50f89f2452e102, type: 2}
     - target: {fileID: 5839772531734259455, guid: f5887aff96e865d438272707dcfc2e6e, type: 3}
       propertyPath: m_Name
       value: Cotton Candy
@@ -543,7 +567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3007253903354354758, guid: 774c9a6a28b3a384c877909eff5eb26a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.71
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 3007253903354354758, guid: 774c9a6a28b3a384c877909eff5eb26a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -577,9 +601,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3007253903354354759, guid: 774c9a6a28b3a384c877909eff5eb26a, type: 3}
+      propertyPath: m_Constraints
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3007253903354354763, guid: 774c9a6a28b3a384c877909eff5eb26a, type: 3}
       propertyPath: m_Name
       value: Mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007253903354354763, guid: 774c9a6a28b3a384c877909eff5eb26a, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 774c9a6a28b3a384c877909eff5eb26a, type: 3}

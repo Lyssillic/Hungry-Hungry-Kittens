@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     private Animator animator;
-    private SpriteRenderer renderer;
+    private new SpriteRenderer renderer;
     private Rigidbody2D rb2d;
     public float speed;
     public float currentSpeed;
@@ -13,7 +13,7 @@ public class EnemyController : MonoBehaviour
     float horizontalDirection = 1f;
     public float vertical;
     int direction;
-    bool moving = true;
+    bool moving = false;
     bool toggleDirection = false;
     Vector2 movement;
 

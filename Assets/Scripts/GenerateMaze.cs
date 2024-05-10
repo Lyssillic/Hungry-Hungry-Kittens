@@ -15,9 +15,9 @@ public class GenerateMaze : MonoBehaviour
   Room[,] rooms = null;
 
   [SerializeField]
-  int numX = 10;
+  int numX = 6;
   [SerializeField]
-  int numY = 10;
+  int numY = 6;
 
   // The room width and height.
   float roomWidth;
@@ -27,6 +27,7 @@ public class GenerateMaze : MonoBehaviour
   Stack<Room> stack = new Stack<Room>();
 
   bool generating = false;
+  bool finished = false;
 
   private void GetRoomSize()
   {
@@ -257,6 +258,7 @@ public class GenerateMaze : MonoBehaviour
     }
 
     generating = false;
+    finished = true;
   }
 
   private void Reset()
@@ -276,12 +278,12 @@ public class GenerateMaze : MonoBehaviour
 
   private void Update()
   {
-    if(Input.GetKeyDown(KeyCode.Space))
+    // if(Input.GetKeyDown(KeyCode.Space))
+    // {
+    if(!generating && !finished)
     {
-      if(!generating)
-      {
-        CreateMaze();
-      }
+      CreateMaze();
     }
+    // }
   }
 }

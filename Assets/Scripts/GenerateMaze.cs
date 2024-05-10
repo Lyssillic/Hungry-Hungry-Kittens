@@ -84,7 +84,7 @@ public class GenerateMaze : MonoBehaviour
       }
     }
 
-    SetCamera();
+    // SetCamera();
   }
 
   private void RemoveRoomWall(

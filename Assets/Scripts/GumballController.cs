@@ -21,8 +21,9 @@ public class GumballController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the trigger collider collided with another collider
-        // and destroy the gumball if it did
-        Destroy(gameObject);
+        if (other.gameObject.tag == "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }
